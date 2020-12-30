@@ -18,7 +18,7 @@ export default function Skill() {
                     <div className={style.iconSkill}>- Javascript, Java, PHP</div>
                     <h3><i className="fa fa-code"></i> FRAMEWORKS & PLATFORMS</h3>
                     <div className={style.iconSkill}>- ReactJS, NodeJS</div>
-                    <div className={style.iconSkill}>- Boootstrap, Jquery</div>
+                    <div className={style.iconSkill}>- Bootstrap, Jquery</div>
                     <div className={style.iconSkill}>- Laravel</div>
                     <h3><i className="fa fa-code"></i> VERSION CONTROL</h3>
                     <div className={style.iconSkill}>- Github</div>

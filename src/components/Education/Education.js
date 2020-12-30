@@ -22,7 +22,7 @@ export default function Education() {
                         <div className={style.contentEduInfoTitle}>CyberSoft Academy</div>
                         <div className={style.contentEduInfoClass}>
                             <span>Front-end (ReactJS, Angular)</span>
-                            <span>Fullstack (Nodejs, VueJS)</span>
+                            <span>Fullstack (NodeJS, VueJS)</span>
                         </div>
                         <div className={style.contentEduInfoRank}>Currently taking courses on Front-end and Fullstack Javascript in the evening.</div>
                         
