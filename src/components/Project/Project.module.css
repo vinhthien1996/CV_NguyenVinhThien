@@ -1,0 +1,137 @@
+.containerProject {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.titleProject {
+  text-align: center;
+}
+.titleProject h3 {
+  font-weight: 200;
+  font-size: 40px;
+  color: #363636;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contentProject {
+  color: #363636;
+  border-radius: 2px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.contentProjectItem {
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -khtml-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  color: #363636;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.contentProjectItemContent {
+  
+}
+.contentProjectItemImages {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+.contentProjectItemImagesOverlay {
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent); */
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contentProjectItemImages img {
+  width: 100%;
+}
+
+.contentProjectItemTag {
+  padding: 4px 20px 0 20px;
+  min-height: 60px;
+  margin-bottom: 15px;
+}
+.contentProjectItemTag span {
+  background-color: #efefef;
+  display: inline-block;
+  margin: 0 4px 4px 0 ;
+  color: #222;
+  font-size: 14px;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.contentProjectItemDes {
+  padding: 20px 20px 10px 20px;
+}
+.contentProjectItemContent h3 {
+  padding-bottom: 5px;
+  margin: 0;
+  color: #ed3b3b;
+  font-size: 17px;
+  font-weight: 400;
+}
+.contentProjectItemContent p {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 25px;
+}
+.contentProjectItemBtn {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ed3b3b;
+  color: #fff;
+}
+.btnDemo, .btnGit {
+  display: block;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  font-weight: 300;
+}
+.btnDemo a, .btnGit a {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnDemo a:hover, .btnGit a:hover {
+  text-decoration: none;
+  color: #ddd;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+  .containerProject {
+    width: 95%;
+  }
+  .contentProject {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 640px) {
+  .contentProject {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}

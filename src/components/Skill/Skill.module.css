@@ -1,0 +1,116 @@
+.containerSkill {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.titleSkill {
+  text-align: center;
+}
+.titleSkill h3 {
+  font-weight: 200;
+  font-size: 40px;
+  color: #363636;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contentSkill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.contentSkillItem {
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -khtml-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 15px 10px;
+  color: #363636;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+}
+.contentSkillItem i {
+  vertical-align: top;
+}
+.contentSkillItem h3 {
+  font-size: 16px;
+  padding: 5px;
+  margin: 0;
+  font-weight: 400;
+}
+.iconSkill {
+  margin-left: 20px;
+  padding: 5px 0;
+}
+
+.itemSkill {
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+.itemSkill img {
+  width: 30px;
+}
+.itemSkill span {
+  display: inline-block;
+  width: 130px;
+  text-align: left;
+}
+.itemSkill.html {
+  color: #e65227;
+}
+.itemSkill.css {
+  color: #2196f3;
+}
+.itemSkill.sass {
+  color: #d985b0;
+}
+.itemSkill.javascript {
+  color: #efbb24;
+}
+.itemSkill.reactjs {
+  color: #53c1de;
+}
+.itemSkill.redux {
+  color: #7a50be;
+}
+.itemSkill.laravel {
+  color: #fc7463;
+}
+.itemSkill.nodejs {
+  color: #46555c;
+}
+.itemSkill.mysql {
+  color: #79acc2;
+}
+.itemSkill.mongodb {
+  color: #439934;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+  .containerSkill {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 640px) {
+  .itemSkill {
+    width: 50%;
+  }
+  .contentSkill {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}

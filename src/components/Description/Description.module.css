@@ -1,0 +1,95 @@
+.containerDes {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -khtml-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 10px;
+  color: #363636;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px;
+}
+.desLeft {
+  width: 40%;
+  padding: 10px;
+}
+.desLeftItem {
+  padding: 10px 10px 10px 0;
+  border-right: 1px dashed #dddddd;
+}
+.desLeftItem span {
+  display: inline-block;
+  width: 100px;
+  font-weight: 400;
+}
+
+.desRight {
+  width: 60%;
+  padding: 10px;
+}
+.desRightContent {
+  padding: 10px 0;
+}
+.desRightContent h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #000;
+}
+.desRightContent p {
+  margin: 0;
+  padding: 0;
+  padding: 5px 0;
+  color: #363636;
+  line-height: 25px;
+}
+
+.desSource {
+  background-color: #ed3b3b;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin-top: 5px;
+  transition: background 0.2s;
+}
+.desSource:hover {
+  background-color: rgb(201, 50, 50);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+  .containerDes {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 640px) {
+  .desLeft,
+  .desRight {
+    width: 100%;
+  }
+  .desLeft {
+    margin-bottom: 10px;
+  }
+  .desLeftItem {
+    padding: 10px 10px 10px 0;
+    border-right: none;
+  }
+  .desSource {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}
