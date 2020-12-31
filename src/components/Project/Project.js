@@ -8,9 +8,17 @@ export default function Project() {
 
     const dataProject = [
         {
+            image: './img/todo-list.png',
+            title: 'Todo List',
+            des: 'Application to manage to-do list by time with task priority.',
+            tags: ['ReactJS', 'Redux', 'Local Storage'],
+            demo: 'http://vinhthien-todo-list.herokuapp.com/',
+            git: 'https://github.com/vinhthien1996/todo-list'
+        },
+        {
             image: './img/weather-app.png',
             title: 'Weather App',
-            des: 'Look up weather by city with bad weather notification (if any)',
+            des: 'Look up weather by city with bad weather notification (if any).',
             tags: ['ReactJS', 'Redux', 'API Openweathermap'],
             demo: 'http://vinhthien-weather-app.herokuapp.com/',
             git: 'https://github.com/vinhthien1996/weather-app'
@@ -18,7 +26,7 @@ export default function Project() {
         {
             image: './img/tix.png',
             title: 'Tix Homepage',
-            des: 'Clone Tix homepage, not include the function to load more lists',
+            des: 'Clone Tix homepage, not include the function to load more lists.',
             tags: ['HTML', 'CSS', 'SASS', 'Javascript'],
             demo: 'http://vinhthien-tix.surge.sh/',
             git: 'https://github.com/vinhthien1996/clone_tix'
@@ -26,7 +34,7 @@ export default function Project() {
         {
             image: './img/udemy.png',
             title: 'Udemy Old Homepage',
-            des: 'Clone Udemy homepage, responsive not include navbar',
+            des: 'Clone Udemy homepage, responsive not include navbar.',
             tags: ['HTML', 'CSS', 'SASS', 'Bootstrap'],
             demo: 'http://vinhthien-udemy.surge.sh/',
             git: 'https://github.com/vinhthien1996/BaiTapSASS_CyberSoft'
