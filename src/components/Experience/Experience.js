@@ -18,10 +18,10 @@ export default function Experience() {
                     <h3>TopDev</h3>
                     <div className={style.nameExp}>Intern Developer</div><div className={style.nameExp}>Laravel</div>
                     <p>
-                        <b>Project</b>: Shortend Link
-                        <br/><b>Project Description:</b> Research available source code. Develop some more simple functions from the existing project.
-                        <br/><b>Result:</b> Learn how to Clean code, Queue, Helpers, Redis cache in Laravel.
-                        <br/><b>Technologies:</b> XAMP, Laravel, Redis cache.
+                        Project: Shortend Link
+                        <br/>Project Description: Research available source code. Develop some more simple functions from the existing project.
+                        <br/>Result: Learn how to Clean code, Queue, Helpers, Redis cache in Laravel.
+                        <br/>Technologies: XAMP, Laravel, Redis cache.
                     </p>
                 </div>
             </div>

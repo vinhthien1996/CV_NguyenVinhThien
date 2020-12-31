@@ -21,10 +21,10 @@ export default function ProjectItem(props) {
                 </div>
                 <div className={style.contentProjectItemBtn}>
                     <div className={style.btnDemo}>
-                        <a href={props.data.demo}><i className="fab fa-chrome"></i> Demo</a>
+                        <a href={props.data.demo} target="_blank" rel="noreferrer"><i className="fab fa-chrome"></i> Demo</a>
                     </div>
                     <div className={style.btnGit}>
-                        <a href={props.data.git}><i className="fab fa-github"></i> Github</a>
+                        <a href={props.data.git} target="_blank" rel="noreferrer"><i className="fab fa-github"></i> Github</a>
                     </div>
                 </div>
             </div>

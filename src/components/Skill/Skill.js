@@ -27,10 +27,7 @@ export default function Skill() {
                     <h3><i className="fa fa-code"></i> DATABASE</h3>
                     <div className={style.iconSkill}>- MySQL</div>
                     <div className={style.iconSkill}>- MongoDB</div>
-                    <h3><i className="fa fa-code"></i> IDE</h3>
-                    <div className={style.iconSkill}>- Visual Studio, Sublime Text</div>
-                    <div className={style.iconSkill}>- Eclipse</div>
-                    <h3><i className="fa fa-code"></i> LANGUAGE</h3>
+                    <h3><i className="fa fa-code"></i> FOREIGN LANGUAGE</h3>
                     <div className={style.iconSkill}>- English (Basic Reading Comprehension)</div>
                 </div>
             </div>
