@@ -32,6 +32,7 @@ export default function Experience() {
                     <div className={style.nameExp}>Designer</div>
                     <p>
                         Position: Team member<br/>
+                        
                         Website administration, banner design, standee, advertising video editing for brand advertising.
                     </p>
                 </div>
