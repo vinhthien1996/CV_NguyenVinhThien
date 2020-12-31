@@ -14,7 +14,7 @@ export default function Experience() {
             <div className={style.titleExp}><h3>Experience</h3></div>
             <div className={style.contentExp}>
                 <div className={style.contentExpItem}>
-                    <div className={style.contentExpDate}><i className="fa fa-clock"></i> October 2020 - Present</div>
+                    <div className={style.contentExpDate}><i className="fa fa-clock"></i> October 2020 - December 2020</div>
                     <h3>TopDev</h3>
                     <div className={style.nameExp}>Intern Developer</div><div className={style.nameExp}>Laravel</div>
                     <p>
