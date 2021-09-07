@@ -16,7 +16,7 @@ export default function Education() {
                 <div className={style.contentEduItem}>
                     <div className={style.contentEduDate}>
                         <span className={style.contentEduCheck}><i className="fa fa-check"></i></span>
-                        <span className={style.contentEduYear}>September 2020 - Present</span>
+                        <span className={style.contentEduYear}>September 2020 - December 2020</span>
                     </div>
                     <div className={style.contentEduInfo}>
                         <div className={style.contentEduInfoTitle}>CyberSoft Academy</div>

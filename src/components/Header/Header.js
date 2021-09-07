@@ -13,7 +13,7 @@ export default function Header() {
             </div>
             <div className={style.headerBottom}>
                 <div className={style.headerTitle}>Nguyễn Vĩnh Thiện</div>
-                <div className={style.headerJob}>Fresher Developer</div>
+                <div className={style.headerJob}>Frontend Developer</div>
                 <div className={style.headerContact}>
                     <a href="https://www.facebook.com/vinhthien1996"><span className={style.headerIcon}><i className="fab fa-facebook-f"></i></span></a>
                     <a href="https://github.com/vinhthien1996"><span className={style.headerIcon}><i className="fab fa-github"></i></span></a>

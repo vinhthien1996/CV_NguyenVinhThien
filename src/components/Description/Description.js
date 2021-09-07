@@ -14,7 +14,7 @@ export default function Description() {
             <div className={style.desLeft}>
                 <div className={style.desLeftItem}><span>Date of Birth:</span> 25/05/1996</div>
                 <div className={style.desLeftItem}><span>City:</span> Ho Chi Minh City</div>
-                <div className={style.desLeftItem}><span>Address:</span> District 8, Ho Chi Minh City</div>
+                <div className={style.desLeftItem}><span>Address:</span> Go Vap District, Ho Chi Minh City</div>
                 <div className={style.desLeftItem}><span>Phone:</span> 0394 756 393</div>
                 <div className={style.desLeftItem}><span>Email:</span> vinhthien1996@gmail.com</div>
 
